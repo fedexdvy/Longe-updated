@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transfer</title>
+    <link rel="stylesheet" href="transfer.css">
+    <link rel="shortcut icon" href="/icons/60394399d4d69e00040ae03d.png" type="image/x-icon">
+</head>
+<body>
+    <nav class="transfer-nav">
+        <h3>SCHEDULE TRANSFER</h3>
+    </nav>
+<form
+  action="https://getform.io/f/amddymqb"
+  method="POST"
+  id="contact-form"
+>
+    <div class="amount">
+        <h6>Amount</h6>
+        <div class="amount-box">
+            <input type="number" name="total-amount" id="" placeholder="$0.00" required>
+        </div>
+        
+    </div>
+    <div class="select">
+        <h6>Transfer from</h6>
+        <select name="from-account" id="">
+            <option value="Select">Select Account</option>
+            <option value="Moneymarketaccount">MONEY MARKET ACCOUNT(...6829) $304,359.05</option>
+            <option value="null">-- --</option>
+        </select>
+    </div>
+
+    <div class="select">
+        <h6>Transfer to</h6>
+        <select name="from-account" id="">
+            <option value="Select">Select Account</option>
+            <option value="null">SAVINGS(...8665) DISABLED -$6.00</option>
+            <option value="null">-- --</option>
+
+        </select>
+    </div>
+    <div class="external">
+        <h6>Transfer to (External Account)</h6>
+        <input type="text" name="routing-number" id="" placeholder="Routing Number">
+        <input type="text" name="account-number" id="" placeholder="Account Number">
+        <input type="text" name="Bank" id="" placeholder="Bank">
+
+    </div>
+    <div class="date">
+        <h6>Transfer on</h6>
+        <input type="date" name="Date" id="">
+    </div>
+    <div class="memo">
+        <h6>Memo (Optional)</h6>
+        <input type="text" name="memo" id="" placeholder="What's this for?">
+    </div>
+  <button class="submit" type="submit">Submit</button>
+</form>
+
+<script>
+  document.getElementById("contact-form").addEventListener("submit", function (event) {
+    event.preventDefault(); // Prevent default form submission behavior
+
+    const form = event.target;
+    const formData = new FormData(form);
+
+    fetch(form.action, {
+      method: form.method,
+      body: formData,
+    })
+      .then((response) => {
+        if (response.ok) {
+          window.location.href = "/successful.html"; // Redirect on success
+        } else {
+          alert("Submission failed. Please try again.");
+        }
+      })
+      .catch((error) => {
+        console.error("Error:", error);
+        alert("An error occurred. Please try again.");
+      });
+  });
+</script>
+
+</body>
+</html>

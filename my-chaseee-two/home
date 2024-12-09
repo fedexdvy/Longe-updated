@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Page Title</title>
+</head>
+<body>
+    <header>
+    <div class"top-header">
+		<h6>Good day Sammy</h6>
+		<h6>April 4, 2024</h6>
+	</div>
+	<ul>
+		<a href""><li>See Statement</li></a>
+		<a href""><li>Payment History</li></a>
+    <a href""><li>Pay Bills</li><a/>
+	</ul>
+	
+
+		<div>icon</div>
+		<div>
+			<h5>Today's Snapshot</h5>
+			<p>Woo-hoo! You have earned 415 points on a recent purchase</p>
+		</div>
+	</div>
+    </header>
+    
+    <section class"accounts-wrapper">
+			<h1>Accounts</h1>
+			<div>
+				<div class"account-header">
+					<h6>Bank Accounts(3)</h6>
+					<h6>$60,000.00</h6>
+				</div>
+        
+				
+				<a href"">
+					<div class"account">
+					<a href"">checking (...4556)</a>
+					<div class"available-amount">
+						<h5>$30,000.00</h5>
+						<p>Available balance</p>
+					</div>
+				</div>
+				</a>
+
+				<a href"">
+					<div class"account">
+					<a href"">Savings (...8665)</a>
+					<div class"available-amount">
+						<h5>$30,000.00</h5>
+						<p>Available balance</p>
+					</div>
+				  </div>
+				</a>
+				
+				
+			</div>
+    </section>
+    
+    <footer>
+
+    </footer>
+</body>
+</html>

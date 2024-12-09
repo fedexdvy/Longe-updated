@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.login-page{
+    background-color: #005eb8;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+}
+nav{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    margin-bottom: 0px;
+}
+nav img{
+    width: 100px;
+}
+.login-page form{
+    margin-top: 30vh;
+    width: 90%;
+    background-color: white;
+    padding: 10px 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+    display: flex;
+    flex-flow: column;
+    justify-content: first baseline;
+    align-items: first baseline;
+}
+.userpass{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: first baseline;
+    align-items: first baseline;
+    margin: 5px 0px;
+}
+.userpass input{
+    width: calc(98% - 10px);
+    border: none;
+    border-bottom: solid 1px grey;
+    padding: 5px;
+    color: black;
+    height: 30px;
+    outline: none;
+}
+.userpass h6{
+    color: grey;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+}
+#incorrect{
+    width: 100%;
+    display: none;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 0px;
+}
+#incorrect p{
+    color: red;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
+.check-boxes{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0px;
+    width: 100%;
+}
+.remember-token{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0px;
+}
+
+.remember-token input{
+    width: 20px;
+    margin-right: 10px;
+}
+.remember-token p{
+    font-size: 12px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-right: 10px;
+}
+
+#sign-in-button{
+    width: 100%;
+    background-color: #005eb8;
+    margin: 0 auto;
+    border: none;
+    outline: none;
+    padding: 10px 0px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 10px;
+}
+.forgotten{
+    text-decoration: none;
+    font-size: 12px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: rgb(12, 12, 54);
+
+}
+.bottom-wrapper{
+    background-color: white;
+    padding-top: 20px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+.bottom-wrapper .bottom-wrapper-header{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    text-decoration: none;
+}
+.bottom-wrapper .bottom-wrapper-header a{
+    font-size: 10px;
+    text-decoration: none;
+    padding-right: 5px;
+    border-right: solid 1px rgb(204, 204, 204);
+    color: rgb(12, 12, 54);
+}
+.copyrights{
+    padding: 20px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+.copyrights p{
+    font-size: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    line-height: 12px;
+}
+.disclosures{
+    padding: 20px;
+    display: flex;
+    flex-flow: column;
+    justify-content: first baseline;
+    align-items: first baseline;
+    background-color: rgb(238, 238, 238);
+}
+.disclosures h6{
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    margin: 10px 0px;
+}
+.disclosures p{
+    font-size: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 100;
+    margin: 10px 0px;
+}
+.disclosures h5{
+    font-size: 12px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 900;
+    padding:  10px;
+    border: solid 1px rgb(209, 207, 207);
+}
+.receipt-details{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+
+}
+.receipt-details h6{
+    font-size: 12px;
+    margin: 10px 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.receipt-details h4{
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 100;
+}
+.receipt-details table{
+    width: 96%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: left;
+    margin-bottom: 50px;
+    border-top: solid 1px grey;
+    border-bottom: solid 1px grey;
+    padding: 20px 0px;
+}
+.receipt-details table tr{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+} 
+.receipt-details table tr td{
+    font-size: 14px;
+    margin: 10px 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+} 
+.bottom-content{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+}
+.dup{
+    background-color: #005eb8;
+    width: 95%;
+    padding: 10px 0px;
+    text-align: center;
+    color: white;
+    border-radius: 2px;
+    font-size: 14px;
+    margin: 10px 0px;
+}
+.iss{
+    background-color: #ffffff;
+    width: 95%;
+    padding: 10px 0px;
+    text-align: center;
+    color: #005eb8;
+    border-radius: 2px;
+    font-size: 14px;
+    margin: 10px 0px;
+    border: solid 1px #005eb8;
+}

@@ -1,0 +1,130 @@
+.account-ul{
+    width: 100%;
+    background-color: rgb(243, 240, 240);
+    padding: 10px 0px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+.account-ul a{
+    text-decoration: none;
+}
+.account-ul img{
+    width: 30px;
+    margin: 0px 15px;
+}
+.account-name{
+    display: flex;
+    justify-content: center;
+    flex-flow: row;
+    text-align: center;
+    align-items: center;
+     margin: 0 auto;
+}
+.account-name h3{
+    font-size: 18px;
+}
+.account-details{
+    margin-top: 20px;
+    display: flex;
+    flex-flow: column;
+    justify-content: first baseline;
+    align-items: first baseline;
+    padding: 20px;
+    border-top: solid 4px #005eb8;
+    border-bottom: solid 4px #005eb8;
+
+}
+.account-details h6{
+    font-size: 15px;
+    font-weight: 900;
+    margin: 10px 0px;
+}
+.account-details .balances{
+    margin: 10px 0px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.account-details .balances p{
+    font-size: 14px;
+    font-weight: 900;
+}
+.transaction-history{
+    margin-top: 10px;
+    background-color: rgb(255, 255, 255);
+    padding: 15px 10px;
+
+}
+.transaction-history .transaction-history-header{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row;
+    text-align: left;
+    align-items: center;
+    text-decoration: none;
+    margin: 10px 0px;
+
+}
+.transaction-history a{
+    text-decoration: none;
+
+}
+.transaction-history .transaction-history-header img{
+    width: 25px;
+    margin: 0px 1px;
+}
+.transaction-history  .transaction-history-header h6{
+    font-size: 15px;
+    margin: 0px 1px;
+    text-decoration: none;
+    color: black;
+}
+.transactions-wrapper{
+    display: flex;
+    flex-flow: column;
+    justify-content: first baseline;
+    align-items: first baseline;
+    padding: 15px 0px;
+    border-bottom: solid 1px rgb(173, 171, 171);
+}
+.transactions-wrapper h6{
+    font-size: 14px;
+    font-weight: 900;
+    margin: 5px 0px;
+}
+.transactions-wrapper p{
+    font-size: 12px;
+    font-weight: 100;
+    margin: 5px 0px;
+}
+.amount-details{
+    width: 90%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.amount-details h5{
+   color: rgb(171, 4, 4);
+}
+.all-transaction-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 10px 0px;
+}
+.all-transaction-wrapper a{
+    text-decoration: none;
+    padding: 5px 15px;
+    border: solid 1px;
+    color: #005eb8;
+}
